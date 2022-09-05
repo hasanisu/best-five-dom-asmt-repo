@@ -17,3 +17,8 @@ function costingCalculation (elementId){
     return calculationAmount;
 }
 
+
+function myFunction(elementId) {
+  document.getElementById(elementId).disabled = true;
+}
+
