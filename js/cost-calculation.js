@@ -7,6 +7,7 @@ document.getElementById('btn-calculation').addEventListener('click', function(){
     const totalList = document.getElementById('player-selection');
     const totalPlayerList = totalList.childElementCount;
     const playersExpenses = parseInt(totalPlayerList);
+    
 
 
     const totalPlayerWage = playerPaybleWage * playersExpenses;

@@ -1,6 +1,4 @@
 let count = 0;
-
-
 document.getElementById('btn-first-selction').addEventListener('click', function(){
     count++;
     const playersName = document.getElementById('player-name-m').innerText;
@@ -12,6 +10,13 @@ document.getElementById('btn-first-selction').addEventListener('click', function
     <th scope="row">${count}.</th>
     <td>${playersName}</td>
     `;
+
+    if(count > 5){ 
+        alert('You are not added more then five Players');
+        playerSelection.style.display = none;
+        
+        ;}
+
     playerSelection.appendChild(playersSelectionById);
 })
 document.getElementById('btn-second-selction').addEventListener('click', function(){
@@ -22,8 +27,16 @@ document.getElementById('btn-second-selction').addEventListener('click', functio
     const playersSelectionById = document.createElement('ul');
     playersSelectionById.innerHTML=`
     <th scope="row">${count}.</th>
+    
     <td>${playersName}</td>
     `;
+
+    if(count > 5){ 
+        alert('You are not added more then five Players');
+        playerSelection.style.display = none;
+        myFunction('btn-second-selction') = true;
+        ;}
+
     playerSelection.appendChild(playersSelectionById);
 })
 document.getElementById('btn-third-selction').addEventListener('click', function(){
@@ -36,6 +49,13 @@ document.getElementById('btn-third-selction').addEventListener('click', function
     <th scope="row">${count}.</th>
     <td>${playersName}</td>
     `;
+    
+    if(count > 5){ 
+        alert('You are not added more then five Players');
+        playerSelection.style.display = none;
+        
+        ;}
+
     playerSelection.appendChild(playersSelectionById);
 })
 document.getElementById('btn-fourth-selction').addEventListener('click', function(){
@@ -48,6 +68,13 @@ document.getElementById('btn-fourth-selction').addEventListener('click', functio
     <th scope="row">${count}.</th>
     <td>${playersName}</td>
     `;
+    
+    if(count > 5){ 
+        alert('You are not added more then five Players');
+        playerSelection.style.display = none;
+        
+        ;}       
+
     playerSelection.appendChild(playersSelectionById);
 })
 document.getElementById('btn-fifth-selction').addEventListener('click', function(){
@@ -60,6 +87,13 @@ document.getElementById('btn-fifth-selction').addEventListener('click', function
     <th scope="row">${count}.</th>
     <td>${playersName}</td>
     `;
+    
+    if(count > 5){ 
+        alert('You are not added more then five Players');
+        playerSelection.style.display = none;
+       
+        ;}
+
     playerSelection.appendChild(playersSelectionById);
 })
 document.getElementById('btn-sixth-selction').addEventListener('click', function(){
@@ -72,6 +106,13 @@ document.getElementById('btn-sixth-selction').addEventListener('click', function
     <th scope="row">${count}.</th>
     <td>${playersName}</td>
     `;
+    if(count > 5){ 
+        alert('You are allow add more then five Players');
+        playerSelection.style.display = none;
+        
+        }
+
     playerSelection.appendChild(playersSelectionById);
 })
 
+ 
