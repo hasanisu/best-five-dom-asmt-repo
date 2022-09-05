@@ -1,0 +1,103 @@
+ .selection-v{
+      color: rgb(103, 19, 19);
+      text-align: center;
+    }
+.selection-area{
+      width: 300px;
+      height: 335px;
+      color: rgb(237, 192, 176);
+      text-align: left;
+      border: 2px dotted rgb(67, 57, 37);
+      border-radius: 20px;
+    }
+.budget-area{
+      width: 300px;
+      height: 560px;
+      border: 2px dotted rgb(67, 57, 37);
+      border-radius: 20px;
+    }
+img{
+      height: 180px;
+    }
+.header-section{
+      height: 500px;
+      background-color: rgb(105, 105, 105);
+      
+    }
+.text-area{
+      padding-top: 100px;
+      position: relative;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: coral;
+    }
+.text-area-span{
+      color: rgb(245, 79, 19);
+    }
+.text-another{
+      color: rgb(94, 2, 2);
+    }
+.input-area{
+      margin-top: 25px;
+      border-radius: 8px;
+      padding: 4px;
+      margin-left: 20px;
+    }
+.btn-primary-1{
+      background-color: burlywood;
+      font-size: 22px;
+      padding: 8px;
+      color: white;
+      font-weight: 600;
+    }
+.input-area-1{
+      margin-top: 25px;
+      border-radius: 8px;
+      padding: 4px;
+      margin-left: 44px;
+    }
+.btn-section{
+      margin-top: 30px;
+      margin-left: 70px;
+      padding:5px 30px;
+      background-color: burlywood;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+.btn-section-1{
+      margin-top: 30px;
+      margin-left: 70px;
+      padding:5px 40px;
+      background-color: burlywood;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    
+.cost-text{
+      font-size: 20px;
+      font-weight: 600;
+    }
+.total-cost{
+      text-align: start;
+    }
+.total-expense{
+      margin-left: 80px;
+      color: coral;
+    }
+#total-expenses{
+      color: coral;
+    }
+.footer-section{
+      margin-top: 100px;
+      height: 150px;
+      text-align: center;
+    }
+.hr-section{
+      color: black;
+      border: 1px solid black;
+    }
+.footer-text{
+      margin-top: 50px;
+    }
+  

@@ -8,24 +8,12 @@
 
   </head>
 
-
-  <style>
-    .selection-area{
-      width: 300px;
-      height: 335px;
-    }
-    .budget-area{
-      width: 300px;
-      height: 400px;
-    }
-  </style>
-
-
-  <body class="container bg-success">
-    <header>
-
+  <body class="bg-secondary">
+    <header class="header-section">
+      <h1 class="text-area text-center display-2" >Choose Your Best <span class="text-area-span fw-bold ">Five Player</span> </h1>
+      <h3 class="text-another text-center">You can create your own team and play with another team <br>Now seleect you top five best player in the below.</h3>
     </header>
-    <main>
+    <main class="">
         <!-- card section start -->
         <section class="container">
             <div class="row g-0 text-center">
@@ -34,65 +22,65 @@
                     <div class="container text-center">
                         <div class="row mt-5">
                           <div class="col">
-                            <div class="card" style="width: 16rem;">
+                            <div class="card shadow" style="width: 16rem;">
                                 <img src="https://imageio.forbes.com/specials-images/imageserve/5f5be112e7f395dc08ef8e58/Lionel-Messi-celebrating-scoring-a-goal-in-the-2019-20-UEFA-Champions-League/1960x0.jpg?format=jpg&width=960" class="card-img-top" alt="...">
-                                <div class="card-body bg-success">
+                                <div class="card-body bg-secondary">
                                   <h5 id="player-name-m" class="card-title">Lionel Messi</h5>
-                                  <p class="card-text">the card title and make up the bulk of the card's content.</p>
-                                  <button onclick="myFunction('btn-first-selction')" id="btn-first-selction" class="btn btn-primary px-5" type="button">Select</button>
+                                  <p class="card-text"><small>36 Goals</small> : <small>120 Assist</small></p>
+                                  <button onclick="myFunction('btn-first-selction')" id="btn-first-selction" class="btn btn-primary-1 px-5" type="button">Select</button>
                                 </div>
                               </div>
                           </div>
                           <div class="col">
-                                <div class="card" style="width: 16rem;">
+                                <div class="card shadow" style="width: 16rem;">
                                     <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
-                                    <div class="card-body bg-success">
+                                    <div class="card-body bg-secondary">
                                         <h5 id="player-name-n" class="card-title">Neymar Jr</h5>
-                                        <p class="card-text">the card title and make up the bulk of the card's content.</p>
-                                        <button onclick="myFunction('btn-second-selction')" id="btn-second-selction" class="btn btn-primary px-5" type="button">Select</button>
+                                        <p class="card-text"><small>31 Goals</small> : <small>110 Assist</small></p>
+                                        <button onclick="myFunction('btn-second-selction')" id="btn-second-selction" class="btn btn-primary-1 px-5" type="button">Select</button>
                                     </div>
                               </div>
                           </div>
                           <div class="col">
-                            <div class="card" style="width: 16rem;">
+                            <div class="card shadow" style="width: 16rem;">
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMifbX0sCd6TovnCTES0xXzlIVBwSMCAecqQ&usqp=CAU" class="card-img-top" alt="...">
-                                <div class="card-body bg-success">
+                                <div class="card-body bg-secondary">
                                     <h5 id="player-name-b" class="card-title">Karim Benzema</h5>
-                                    <p class="card-text">the card title and make up the bulk of the card's content.</p>
-                                    <button onclick="myFunction('btn-third-selction')" id="btn-third-selction" class="btn btn-primary px-5" type="button">Select</button>
+                                    <p class="card-text"><small>38 Goals</small> : <small>96 Assist</small></p>
+                                    <button onclick="myFunction('btn-third-selction')" id="btn-third-selction" class="btn btn-primary-1 px-5" type="button">Select</button>
                                 </div>
                           </div>
                           </div>
                         </div>
                         <div class="row mt-5">
                             <div class="col">
-                              <div class="card" style="width: 16rem;">
+                              <div class="card shadow" style="width: 16rem;">
                                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZMju78ZQv-hKiqjnIRrQe7mLdGdTVc7fhRA&usqp=CAU" class="card-img-top" alt="...">
-                                  <div class="card-body bg-success">
+                                  <div class="card-body bg-secondary">
                                     <h5 id="player-name-s" class="card-title">Mohammad Salah</h5>
-                                    <p class="card-text">Some quick example Some quick example .</p>
-                                    <button onclick="myFunction('btn-fourth-selction')" id="btn-fourth-selction" class="btn btn-primary px-5" type="button">Select</button>
+                                    <p class="card-text"><small>28 Goals</small> : <small>70 Assist</small></p>
+                                    <button onclick="myFunction('btn-fourth-selction')" id="btn-fourth-selction" class="btn btn-primary-1 px-5" type="button">Select</button>
                                   </div>
                                 </div>
                             </div>
                             
                             <div class="col">
-                                  <div class="card" style="width: 16rem;">
+                                  <div class="card shadow" style="width: 16rem;">
                                       <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
-                                      <div class="card-body bg-success">
+                                      <div class="card-body bg-secondary">
                                           <h5 id="player-name-r" class="card-title">Cristiano Ronaldo</h5>
-                                          <p class="card-text"> the card title and make up the bulk of the card's content.</p>
-                                          <button onclick="myFunction('btn-fifth-selction')" id="btn-fifth-selction" class="btn btn-primary px-5" type="button">Select</button>
+                                          <p class="card-text"><small>37 Goals</small> : <small>71 Assist</small></p>
+                                          <button onclick="myFunction('btn-fifth-selction')" id="btn-fifth-selction" class="btn btn-primary-1 px-5" type="button">Select</button>
                                       </div>
                                 </div>
                             </div>
                             <div class="col">
-                              <div class="card" style="width: 16rem;">
+                              <div class="card shadow" style="width: 16rem;">
                                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyrAEYNqSpUyFw8ch49E-gd94-tREzn8EMiQ&usqp=CAU" class="card-img-top" alt="...">
-                                  <div class="card-body bg-success">
+                                  <div class="card-body bg-secondary">
                                       <h5 id="player-name-o" class="card-title">Mesut Ozil</h5>
-                                      <p class="card-text">the card title and make up the bulk of the card's content.</p>
-                                      <button onclick="myFunction('btn-sixth-selction')" id="btn-sixth-selction" class="btn btn-primary px-5" type="button">Select</button>
+                                      <p class="card-text"><small>27 Goals</small> : <small>54 Assist</small></p>
+                                      <button onclick="myFunction('btn-sixth-selction')" id="btn-sixth-selction" class="btn btn-primary-1 px-5" type="button">Select</button>
                                   </div>
                             </div>
                             </div>
@@ -106,24 +94,24 @@
                 <!-- five player selction start  -->
                 <div class=" col-6 col-md-4 mt-5 ">
 
-                  <div class="selection-area border border-white ">
-                    <h2>Selected-V</h2>
+                  <div class="selection-area">
+                    <h2 class="selection-v">Selected-V</h2>
                     
                       <ul id="player-selection"></ul>
                   </div>
                   
-                  <div class="budget-area mt-5 border border-white text-start p-2"> 
+                  <div class="budget-area mt-5 text-start p-2"> 
                     <h2 class="text-light text-center">Budget</h2>
-                    <label class="text-warning" for="">Per Player</label>
-                    <input id="player-wage" class="border border-white ms-5" style="width: 8rem;" type="text">
-                    <button id="btn-calculation" class="bg-danger">Calculation</button>
+                    <label class="cost-text text-warning" for="">Per Player</label>
+                    <input id="player-wage" class="input-area border" style="width: 8rem;" type="text">
+                    <button id="btn-calculation" class="btn-section">Calculation</button>
                     <h4 class="mt-4 text-light text-center">Player Expenses <small>$</small><span id="toal-wage">5000</span></h4>
-                    <label class="mt-2 me-4 text-warning" for="">Manager</label>
-                    <input id="manger-expenses" class="ms-4" style="width: 8rem;" type="text">
-                    <label class="mt-3 me-5 text-warning" for="">Coach</label>
-                    <input id="coach-expenses" class="ms-4" style="width: 8rem;" type="text">
-                    <button id="btn-expenses" class="bg-danger d-block">Expenses</button>
-                    <label class="mt-4 text-light fs-3 text" for="">Total <span>$</span><span id="total-expenses">11000</span></label>
+                    <label class="cost-text mt-4 text-warning" for="">Manager</label>
+                    <input id="manger-expenses" class="input-area" style="width: 8rem;" type="text"><br>
+                    <label class="cost-text mt-3 text-warning" for="">Coach</label>
+                    <input id="coach-expenses" class="input-area-1" style="width: 8rem;" type="text">
+                    <button id="btn-expenses" class="btn-section-1">Expenses</button><br>
+                    <label class="total-cost mt-4 text-light fs-3 text" for="">Total <span class="total-expense">$</span><span id="total-expenses">11000</span></label>
                   </div>
 
                 </div>
@@ -131,11 +119,17 @@
             </div>
         </section>
         <!-- card section end -->
+
     </main>
+
+    <footer class="footer-section">
+      <hr class="hr-section">
+      <h5 class="footer-text">Copyright @2022 All Rights Reserved</h5>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
-    <script src="js/utilities.js"></script>r
+    <script src="js/utilities.js"></script>
     <script src="js/player.js"></script>
     <script src="js/cost-calculation.js"></script>
    

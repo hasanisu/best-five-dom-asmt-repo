@@ -13,7 +13,7 @@ document.getElementById('btn-first-selction').addEventListener('click', function
     `;
 
     if(count > 5){ 
-        alert('You are not added more then five Players');
+        alert('You are not allowed to add more then five Players');
         playerSelection.style.display = none;
         
         ;}
@@ -36,7 +36,7 @@ document.getElementById('btn-second-selction').addEventListener('click', functio
     `;
 
     if(count > 5){ 
-        alert('You are not added more then five Players');
+        alert('You are not allowed to add more then five Players');
         playerSelection.style.display = none;
         myFunction('btn-second-selction') = true;
         ;}
@@ -58,7 +58,7 @@ document.getElementById('btn-third-selction').addEventListener('click', function
     `;
     
     if(count > 5){ 
-        alert('You are not added more then five Players');
+        alert('You are not allowed to add more then five Players');
         playerSelection.style.display = none;
         
         ;}
@@ -80,7 +80,7 @@ document.getElementById('btn-fourth-selction').addEventListener('click', functio
     `;
     
     if(count > 5){ 
-        alert('You are not added more then five Players');
+        alert('You are not allowed to add more then five Players');
         playerSelection.style.display = none;
         
         ;}       
@@ -102,7 +102,7 @@ document.getElementById('btn-fifth-selction').addEventListener('click', function
     `;
     
     if(count > 5){ 
-        alert('You are not added more then five Players');
+        alert('You are not allowed to add more then five Players');
         playerSelection.style.display = none;
        
         ;}
@@ -123,7 +123,7 @@ document.getElementById('btn-sixth-selction').addEventListener('click', function
     <td>${playersName}</td>
     `;
     if(count > 5){ 
-        alert('You are allow add more then five Players');
+        alert('You are not allowed to add more then five Players');
         playerSelection.style.display = none;
         
         }
