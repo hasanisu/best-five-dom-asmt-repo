@@ -1,8 +1,9 @@
 let count = 0;
+
+
 document.getElementById('btn-first-selction').addEventListener('click', function(){
     count++;
     const playersName = document.getElementById('player-name-m').innerText;
-    
     
     const playerSelection = document.getElementById('player-selection');
     const playersSelectionById = document.createElement('ul');
@@ -19,6 +20,9 @@ document.getElementById('btn-first-selction').addEventListener('click', function
 
     playerSelection.appendChild(playersSelectionById);
 })
+
+
+
 document.getElementById('btn-second-selction').addEventListener('click', function(){
     count++;
     const playersName = document.getElementById('player-name-n').innerText;
@@ -39,6 +43,9 @@ document.getElementById('btn-second-selction').addEventListener('click', functio
 
     playerSelection.appendChild(playersSelectionById);
 })
+
+
+
 document.getElementById('btn-third-selction').addEventListener('click', function(){
     count++;
     const playersName = document.getElementById('player-name-b').innerText;
@@ -58,6 +65,9 @@ document.getElementById('btn-third-selction').addEventListener('click', function
 
     playerSelection.appendChild(playersSelectionById);
 })
+
+
+
 document.getElementById('btn-fourth-selction').addEventListener('click', function(){
     count++;
     const playersName = document.getElementById('player-name-s').innerText;
@@ -77,6 +87,9 @@ document.getElementById('btn-fourth-selction').addEventListener('click', functio
 
     playerSelection.appendChild(playersSelectionById);
 })
+
+
+
 document.getElementById('btn-fifth-selction').addEventListener('click', function(){
     count++;
     const playersName = document.getElementById('player-name-r').innerText;
@@ -96,6 +109,9 @@ document.getElementById('btn-fifth-selction').addEventListener('click', function
 
     playerSelection.appendChild(playersSelectionById);
 })
+
+
+
 document.getElementById('btn-sixth-selction').addEventListener('click', function(){
     count++;
     const playersName = document.getElementById('player-name-o').innerText;
